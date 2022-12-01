@@ -1,0 +1,31 @@
+button {
+    background-color: rgb(217, 164, 29);
+    width: 350px;
+    border-radius: 20px;
+    height: 60px;
+    border: none;
+    color: rgb(155, 0, 0);
+    margin: 30px;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    
+}
+button:hover {
+    background-color: rgb(231, 130, 62);
+    transition-property: width 2s, height 2s, transform 2s;
+    
+}
+.header {
+    display: flex;
+    align-items: center;
+}
+
+
+h1 {
+    margin: auto;
+    font-family: Bungee Spice;
+    font-size: 80px;
+}

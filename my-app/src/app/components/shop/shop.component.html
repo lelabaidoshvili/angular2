@@ -1,0 +1,6 @@
+
+  <input type="text" placeholder="Filter Products..."
+  [(ngModel)]="term"
+  >
+<app-product *ngFor="let product of products "[product]="product"></app-product>
+<button routerLink="/basket">შემდეგი</button>

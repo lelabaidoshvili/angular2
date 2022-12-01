@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    align-items: center;
+}
+
+
+h1 {
+    margin: auto;
+    font-family: Bungee Spice;
+    font-size: 80px;
+}

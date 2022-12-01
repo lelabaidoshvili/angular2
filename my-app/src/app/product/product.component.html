@@ -1,0 +1,12 @@
+
+
+<div class="container">
+  
+    <div class="product">
+        <img [src]="product.image" [alt]="product.title">
+        <h2>{{product.title}}</h2>
+        <p class="price">Price: {{ product.price | currency }}</p>
+        <button (click)="details= !details">{{ details ? 'Hide' : 'Show'}} Details</button>
+        <p *ngIf="details">{{product.description}}</p>
+    </div>
+</div>
